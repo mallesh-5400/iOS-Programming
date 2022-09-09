@@ -1,4 +1,3 @@
-
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell { 
    switch indexPath.section {
      case 0:
@@ -23,4 +22,4 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
      // throw an exception or return a basic cell
    }
 }
-view rawTable_view__basic_example.swift hosted with ❤ by GitHub
+
