@@ -1,0 +1,26 @@
+
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell { 
+   switch indexPath.section {
+     case 0:
+        let cell: CellType0 = tableView.dequeueCell(at: indexPath)
+           // Retreive model from data source or array
+           // let model = self.cellType0Models[indexPath]
+           // Config CellType0 with model
+     return cell
+     case 1:
+        let cell: CellType1 = tableView.dequeueCell(at: indexPath)
+           // Retreive model from data source or array
+           // let model = self.cellType1Models1[indexPath]
+           // Config CellType1 with model
+     return cell
+     case 2:
+        let cell: CellType2 = tableView.dequeueCell(at: indexPath)
+           // Retreive model from data source or array
+           // let model = self.cellType1Models2[indexPath]
+           // Config CellType2 with model
+     return cell
+     default:
+     // throw an exception or return a basic cell
+   }
+}
+view rawTable_view__basic_example.swift hosted with ❤ by GitHub
