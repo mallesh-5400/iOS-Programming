@@ -143,8 +143,3 @@ subTitle.tralijngAnchor.constraints(equalTo: trailingAnchor, constant: 5).isActi
 }
 }
 
-
-
-
-
-
